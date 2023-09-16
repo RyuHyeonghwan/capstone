@@ -24,7 +24,7 @@ Usage - formats:
                                          yolov5s_edgetpu.tflite     # TensorFlow Edge TPU
 """
 from flask import Flask, render_template, Response
-
+ 
 import argparse
 import os
 import sys
