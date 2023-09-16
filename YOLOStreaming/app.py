@@ -3,7 +3,7 @@ import argparse
 import cv2
 from detect_flask import *
 
-
+ 
 class VideoCamera(object):
     def __init__(self):
         self.video = cv2.VideoCapture(0)
