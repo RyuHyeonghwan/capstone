@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="8dp">
+    <ImageView
+        android:id="@+id/a_cctv"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/sensor"
+        android:layout_gravity="center"
+        android:background="@null"/>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:clickable="true">
+        <TextView
+            android:id="@+id/a_cctv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="센서 값"
+            android:textSize="28sp"
+            app:layout_constraintLeft_toLeftOf="@+id/a_cctv"/>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:clickable="true">
+    <TextView
+        android:id="@+id/a_cctv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="센서 번호"
+        android:textSize="22sp"
+        app:layout_constraintLeft_toLeftOf="@+id/a_cctv"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+
+        <TextView
+            android:id="@+id/co2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:text="Co2" />
+
+        <TextView
+            android:id="@+id/co"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:text="Co" />
+        <TextView
+            android:id="@+id/fire"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:text="firevalue" />
+    </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
