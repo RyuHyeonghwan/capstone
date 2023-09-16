@@ -2,7 +2,7 @@ from app import *
 from detect_flask import *
 import serial
 import pymysql
-
+ 
 
 conn = None
 cur = None
